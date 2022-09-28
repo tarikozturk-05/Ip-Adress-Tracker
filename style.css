@@ -1,0 +1,88 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.form-container{
+    /* url(./images/pattern-bg.png)  */
+    background: rgba(0, 255, 85, 0.781) no-repeat 100% 100% / cover;
+    padding: 2rem;
+    min-height: 200px;
+   
+}
+.title{
+    color: white;
+}
+.ip_adress{
+    padding: 0.5rem;
+border: none;
+border-radius: 1rem;
+min-width: 370px;
+
+}
+.bg-dark{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.form-element{
+    position: relative;
+    max-width: 370px;
+}
+
+
+/* ******alt-taraf**** */
+.main{
+display:flex;
+flex-wrap: wrap;
+gap: 1rem;
+align-items: center;
+justify-content: center;
+margin-top: -60px;
+padding: 30px;
+background: rgb(0, 225, 255);
+max-width: 80%;
+border-radius: 0.6rem;
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.205);
+z-index: 100000000;
+min-height: 130px;
+position: relative;
+/* margin: 0 auto;*/
+}
+.info-block{
+    border-right: 2px solid rgba(128, 128, 128, 0.534);
+padding: 0 1rem;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+min-height: 60px;
+justify-content: center;
+}
+.info-blocks{
+    border: none;
+}
+
+h4{
+    font-size: 11px !important;
+    color:  hsl(0, 0%, 59%);
+    border-bottom: 2px solid  hsl(0, 0%, 59%);
+    text-transform: uppercase;
+  
+}
+#current_ip{
+    font-weight: 500;
+    color: #2B2B2B;
+    font-size: 16px;
+}
+
+/* *******map***** */
+.map{
+ background-color: wheat;
+margin-top: -70px;
+min-height: 79vh;
+
+}
